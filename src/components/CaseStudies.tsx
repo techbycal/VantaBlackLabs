@@ -13,25 +13,25 @@ interface CaseStudy {
 
 const caseStudies: CaseStudy[] = [
   {
-    title: "Month-End Close Automation",
-    problem: "Manual reconciliation across multiple entities and ledgers.",
-    hoursSaved: "40 HRS / MO",
-    description: "Built an automated pipeline that parses unstructured CSV exports, maps GL codes based on historical precedents, and highlights anomalies for human review before final entry.",
-    tools: ["Python", "Claude API", "Pandas"],
+    title: "Financial Deck Review Automation",
+    problem: "Mitigated risk of human error in financial reporting and reduced time to delivery during tight timelines.",
+    hoursSaved: "6 HRS / MO",
+    description: "Automated internal-consistency and source tie-out review of the monthly management deck.",
+    tools: ["Python", "Claude", "Tesseract OCR", "Pillow"],
   },
   {
-    title: "Board Deck Generation",
-    problem: "Recurring manual build of investor reporting decks.",
+    title: "Accelerating Sales Pipeline Reviews for Forecasting, Performance Calibration, and Strategic Planning.",
+    problem: "Automating Pipeline Data Sync from Hubspot to Google Sheets.",
     hoursSaved: "12 HRS / MO",
-    description: "Linked core financial database directly to reporting templates. The script fetches real-time KPIs, calculates MoM/YoY variances, and auto-populates slide layouts.",
-    tools: ["SQL", "Supabase", "React"],
+    description: "Built a Google Apps Script bound to the pipeline workbook that reads deal name from the sheet, queries HubSpot's API for matching records, and writes the returned deal data into the sheet.",
+    tools: ["Google Apps Script", "HubSpot Private App", "API"],
   },
   {
-    title: "Cap Table & Scenario Modeling",
-    problem: "Spreadsheet-driven dilution modeling prone to version drift.",
-    hoursSaved: "8 HRS / MO",
-    description: "Developed a centralized cap table tracker that allows founders to run real-time 'what-if' financing scenarios without breaking underlying spreadsheet logic.",
-    tools: ["Next.js", "Vercel", "Tailwind"],
+    title: "Client & Macro Intelligence Monitoring",
+    problem: "Client and policy risk surfaced in the reported numbers, never before them.",
+    hoursSaved: "10 HRS / MO",
+    description: "Systemic weekly monitoring of the client base and the health insurance policy environment. Created a tiered watchlist plus event log; every signal tagged to a forecast action.",
+    tools: ["Claude", "RSS", "CMS", "Feedly"],
   },
 ];
 
