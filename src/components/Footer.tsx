@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="flex flex-col gap-1">
           <span className="text-zinc-600">$ contact --initiate</span>
           <a
-            href="mailto:consulting@vantablacklabs.com"
+            href="mailto:ernesto.cal.miguel@gmail.com"
             className="text-white transition-colors duration-150 hover:text-zinc-400"
           >
-            consulting@vantablacklabs.com
+            ernesto.cal.miguel@gmail.com
             <span className="ml-1 animate-pulse text-white">_</span>
           </a>
         </div>
